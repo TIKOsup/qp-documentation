@@ -53,7 +53,7 @@ export default function File() {
                 >
                   <div className='rounded-md border bg-card'>
                     <div className='border-b px-2 py-1 text-xs text-right'>
-                      <a href="#" className='right-0 text-blue-500 hover:underline px-2'>
+                      <a href="#" className='right-0 text-sidebar-primary hover:underline px-2'>
                         View Source
                       </a>
                     </div>
@@ -87,7 +87,7 @@ export default function File() {
                 >
                   <h3 className='text-base font-semibold text-foreground'>
                     proc{" "}
-                    <a href="#" className='text-blue-500 hover:underline'>
+                    <a href="#" className='text-sidebar-primary hover:underline'>
                       {procedure.name}
                     </a>
                   </h3>
@@ -132,7 +132,7 @@ export default function File() {
                 >
                   <h3 className='text-base font-semibold text-foreground'>
                     func{" "}
-                    <a href="#" className='text-blue-500 hover:underline'>
+                    <a href="#" className='text-sidebar-primary hover:underline'>
                       {fn.name}
                     </a>
                   </h3>
