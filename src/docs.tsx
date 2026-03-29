@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button'
 import Header from '@/components/header'
-import Main from '@/components/main'
+import Main from '@/components/container'
 import Footer from '@/components/footer'
 
 export default function Docs() {

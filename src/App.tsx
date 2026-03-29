@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import Docs from './docs'
+import { Routes, Route } from "react-router-dom"
+import Docs from '@/docs'
+import File from '@/file/file'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
-      <Docs />
+      <Routes>
+        <Route path="/" element={<Docs />} />
+        <Route path="/:file" element={<File />} />
+      </Routes>
     </>
   )
 }
 
-export default App
+
